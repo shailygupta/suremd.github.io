@@ -1,0 +1,118 @@
+.heading {
+    background-color:cadetblue;
+    height: max-content;
+    padding-top: 1%;
+    padding-left: 3%;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    #heading-mobile {
+        visibility: visible;
+        display:block;
+    }
+    #heading, #navbar {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+  }
+
+@media screen and (max-width: 1920px) {
+    #heading, #navbar {
+        visibility: visible;
+    }
+    #heading-mobile {
+        visibility: hidden;
+        clear: both;
+        float: left;
+        margin: 10px auto 5px 20px;
+        width: 28%;
+        display: none;
+      }
+}
+
+nav ul {
+    padding-left: 1%;
+}
+
+.topnav {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#home {
+    padding-left: 3%;
+}
+
+.right-content {
+    text-align: right;
+    padding-right: 3%;
+}
+
+.home-text-2 {
+    margin:0
+}
+
+#services,#associations {
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color:darkcyan;
+    color: white;
+}
+
+#sectors, #about_us {
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.service-header {
+    text-align: center;
+}
+
+.social_icos, .footer_text {
+    color: white;
+}
+
+footer {
+    background-color: cadetblue;
+    color: white;
+    padding-top: 3%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+.sticky + .content {
+padding-top: 60px;
+}
+
+.navbar {
+    width: 100%;
+    padding-left: 5%;
+}
+
+.navbar ul li {
+    width: 242px;
+}
+
+
+
+/* #navbar .nav-service {
+
+} */
+
+/* .nav-service {
+    padding-left: 2%;
+} */
+/* .topnav li {
+    padding-right: 1%;
+} */
